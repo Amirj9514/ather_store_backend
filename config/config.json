@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "customer_detail_user",
+    "password": "I8aDP8Ipdgs9SSs5Y8wGbBGQzvy5znNr",
+    "database": "customer_detail",
+    "host": "dpg-d1ht8f3ipnbc73fmd80g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+     "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "customer_detail_user",
+    "password": "I8aDP8Ipdgs9SSs5Y8wGbBGQzvy5znNr",
+    "database": "customer_detail",
+    "host": "dpg-d1ht8f3ipnbc73fmd80g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+     "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+     "username": "customer_detail_user",
+    "password": "I8aDP8Ipdgs9SSs5Y8wGbBGQzvy5znNr",
+    "database": "customer_detail",
+    "host": "dpg-d1ht8f3ipnbc73fmd80g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+     "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
